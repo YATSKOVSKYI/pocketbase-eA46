@@ -1,7 +1,8 @@
 FROM alpine:latest
 
 ARG PB_VERSION=0.26.1
-
+ARG ADMIN_EMAIL=foXSers@gmail.com
+ARG ADMIN_PASSWORD=F33480o2782638$
 RUN apk add --no-cache \
     unzip \
     ca-certificates
